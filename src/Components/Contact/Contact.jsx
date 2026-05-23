@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import './Contact.css'
 import msg from '../../Assets/msg-icon.jpeg'
 import mail from '../../Assets/mail-icon.jpeg'
@@ -6,8 +6,6 @@ import phone from '../../Assets/phone-icon.jpeg'
 import location from '../../Assets/location-icon.jpeg'
 
 const Contact = () => {
-
-    const [result, setResult] = useState("");
 
     return (
         <div className="contact">
@@ -40,7 +38,7 @@ const Contact = () => {
                     <button type="submit" className="btn">Submit now</button>
                 </form>
 
-                <span>{result}</span>
+                
             </div>
 
         </div>
